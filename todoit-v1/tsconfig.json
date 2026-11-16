@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "esnext",
+    "moduleDetection": "legacy",
+    "lib": ["es2015", "dom", "scripthost"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmitOnError": true,
+    "sourceMap": false,
+    "skipLibCheck": true
+  },
+  "include": ["todo-it.ts"],
+  "exclude": ["node_modules"]
+}
